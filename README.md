@@ -1,10 +1,16 @@
 # Hi, I'm Roman
 
-I'm a Ukrainian embedded software engineer living in London, England. I've been writing firmware and
+I'm a Ukrainian embedded engineer who moved from Kyiv to London, England, and
+brought the soldering iron along. I've been writing firmware and
 Linux platform code for about ten years, mostly for devices where boot time,
-power draw and worst-case latency decide whether the product ships. Before
-that I did an MSc in Computer Science & Engineering at the National Aviation
-University in Kyiv.
+power draw and worst-case latency decide whether the product ships.
+
+I've built low-latency software on FreeRTOS, Zephyr and Linux for
+automotive and healthcare devices, where threads, interrupts and DMA share
+data and every task has to meet its deadline even in the worst case.
+
+Before all that I did an MSc in Computer Science & Engineering at the
+National Aviation University in Kyiv.
 
 ## What I work on now
 
@@ -62,6 +68,7 @@ touchpad driver. My desktop runs patched dwm, st and slstatus on Arch.
 |---|---|
 | Languages | C, C++, Rust, Python, Zig, Go, Bash |
 | OS and RTOS | Linux, FreeRTOS, Zephyr, bare metal |
+| Concurrency and real time | multithreading, pthreads, RTOS scheduling, worst-case execution time, IRQ and DMA design, OpenAMP IPC |
 | Linux kernel | drivers, mm, IRQs, DMA, perf, kprobes, kgdb, tracing |
 | Build and distros | Yocto, Buildroot, OpenWRT, Debos, CMake, Make, Autotools |
 | Boot and security | U-Boot, ARM-TF, OP-TEE, secure boot, AppArmor, seccomp, OpenSSL, HSM |
@@ -72,6 +79,11 @@ touchpad driver. My desktop runs patched dwm, st and slstatus on Arch.
 | Networking | TCP/IP, UDP, RTP, TLS, IPsec, Open vSwitch, MQTT, Protobuf |
 | Hardware | KiCad, Altium, FreeCAD, oscilloscope, logic analyzer, JTAG/SWD |
 | Testing and CI | GTest, CMocka, HIL tests, GitHub Actions, GitLab CI, Jenkins |
+
+## Hobbies
+
+Outside work I hack on things, build local AI setups, tinker with hardware,
+go hiking, and spend time with my family.
 
 ## Contact
 
