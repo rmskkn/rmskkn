@@ -1,6 +1,6 @@
 # Hi, I'm Roman
 
-I'm an embedded software engineer in London. I've been writing firmware and
+I'm a Ukrainian embedded software engineer living in London, England. I've been writing firmware and
 Linux platform code for about ten years, mostly for devices where boot time,
 power draw and worst-case latency decide whether the product ships. Before
 that I did an MSc in Computer Science & Engineering at the National Aviation
