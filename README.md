@@ -1,0 +1,79 @@
+# Hi, I'm Roman
+
+I'm an embedded software engineer in London. I've been writing firmware and
+Linux platform code for about ten years, mostly for devices where boot time,
+power draw and worst-case latency decide whether the product ships. Before
+that I did an MSc in Computer Science & Engineering at the National Aviation
+University in Kyiv.
+
+## What I work on now
+
+At my day job I build Linux BSPs in Yocto for an NXP i.MX93 platform. I
+wrote a login manager in Rust on top of the kernel keyring and OP-TEE, fix
+bugs in the NXP IW611 Wi-Fi driver, and help design the always-on controller
+for the low-power domain and the hardware-in-the-loop test rig.
+
+Outside work I mostly design small boards and the firmware that runs on them:
+
+- [fanny](https://github.com/rmskkn/fanny): a four-channel USB PWM fan
+  controller on an STM32F103 Blue Pill. I did the schematic and PCB in KiCad,
+  the 3D-printed case in FreeCAD, the C firmware, and a Python host tool.
+- [chunky_mcu_updater](https://github.com/rmskkn/chunky_mcu_updater): a
+  remote firmware updater for small MCUs. It sends only the flash sectors that
+  changed, keeps A/B partitions, and can always roll back to the image that
+  was running before the update.
+- [cypm1111_pd](https://github.com/rmskkn/cypm1111_pd): firmware for the
+  Infineon CYPM1111 USB-PD controller that builds with plain `make` and
+  `arm-none-eabi-gcc`, no ModusToolbox needed.
+- [proxy-registry](https://github.com/rmskkn/proxy-registry): a caching
+  HTTP/HTTPS proxy in Go that splits downloads into parallel streams, so
+  pulling container images from a far-away registry stops crawling.
+
+Lately I spend a lot of time on LLM agents for hardware work: driving KiCad
+and FreeCAD through MCP servers, autorouting PCBs, and checking that the
+results pass DRC. I send patches upstream when I hit bugs, for example to
+[KiCAD-MCP-Server](https://github.com/mixelpixx/KiCAD-MCP-Server),
+[KiCadRoutingTools](https://github.com/drandyhaas/KiCadRoutingTools) and
+[hermes-agent](https://github.com/rmskkn/hermes-agent).
+
+For fun I keep a Klipper config for my
+[Ender-3 V3 SE](https://github.com/rmskkn/ender3se_klipper_config), and I
+maintain my own [QMK](https://github.com/rmskkn/qmk_firmware) and
+[ZMK](https://github.com/rmskkn/zmk) keyboard firmware, including a Cirque
+touchpad driver. My desktop runs patched dwm, st and slstatus on Arch.
+
+## Where I've worked before
+
+- Wi-Fi routers and mesh: OpenSync and RDK OneWifi features, 802.11be
+  support, Qualcomm QSDK in Yocto, trusted boot with CMS and OP-TEE.
+- Automotive: secure domain boot for the Xen hypervisor, OSTree updates,
+  AGL bring-up on i.MX8QM, and kernel patches sent to mainline.
+- Video on RISC-V: a MIPI ISP driver on V4L2, RTP streaming, and OpenAMP
+  IPC between cores, debugged with a scope and a logic analyzer next to the
+  ASIC team.
+- Security and IoT: a TDMA radio protocol with jamming detection, a QEMU
+  device emulator with PCI and DMA, and a c10k UDP log server.
+- Wearables and medical: LoRa and BLE firmware for a smart wristband, and a
+  FreeRTOS portable medical monitor with DSP on an STM32F407.
+
+## Skills
+
+| Area | Tools and tech |
+|---|---|
+| Languages | C, C++, Rust, Python, Zig, Go, Bash |
+| OS and RTOS | Linux, FreeRTOS, Zephyr, bare metal |
+| Linux kernel | drivers, mm, IRQs, DMA, perf, kprobes, kgdb, tracing |
+| Build and distros | Yocto, Buildroot, OpenWRT, Debos, CMake, Make, Autotools |
+| Boot and security | U-Boot, ARM-TF, OP-TEE, secure boot, AppArmor, seccomp, OpenSSL, HSM |
+| Virtualization | Xen, KVM, QEMU, Docker |
+| Architectures | ARMv7, ARMv8, Cortex-M, RISC-V |
+| Wireless | Wi-Fi (802.11ax/be), BLE, LoRa |
+| Buses | USB, USB-PD, PCI, SPI, I2C, I2S, MIPI, CAN, LIN, Modbus |
+| Networking | TCP/IP, UDP, RTP, TLS, IPsec, Open vSwitch, MQTT, Protobuf |
+| Hardware | KiCad, Altium, FreeCAD, oscilloscope, logic analyzer, JTAG/SWD |
+| Testing and CI | GTest, CMocka, HIL tests, GitHub Actions, GitLab CI, Jenkins |
+
+## Contact
+
+Find me here on GitHub as [@rmskkn](https://github.com/rmskkn). Issues and
+PRs on any of my repos are welcome.
