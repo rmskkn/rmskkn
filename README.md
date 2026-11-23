@@ -1,16 +1,15 @@
 # Hi, I'm Roman
 
-I'm a Ukrainian embedded engineer who moved from Kyiv to London, England, and
-brought the soldering iron along. I've been writing firmware and
-Linux platform code for about ten years, mostly for devices where boot time,
-power draw and worst-case latency decide whether the product ships.
+I'm an embedded and Linux platform engineer with an MSc in Computer Science &
+Engineering and about ten years of firmware work, mostly on devices where boot
+time, power draw and worst-case latency decide whether the product ships.
 
-I've built low-latency software on FreeRTOS, Zephyr and Linux for
-automotive and healthcare devices, where threads, interrupts and DMA share
-data and every task has to meet its deadline even in the worst case.
-
-Before all that I did an MSc in Computer Science & Engineering at the
-National Aviation University in Kyiv.
+Most of my code is C, C++ and Rust on FreeRTOS, Zephyr and Linux. I've built
+low-latency software for automotive and healthcare devices, where threads,
+interrupts and DMA share data and every task has to meet its deadline even in
+the worst case. I also work lower in the stack on U-Boot, secure boot with
+OP-TEE and kernel drivers. When a project needs hardware, I design the board
+myself in KiCad.
 
 ## What I work on now
 
