@@ -1,22 +1,14 @@
 # Hi, I'm Roman
 
-I'm an embedded and Linux platform engineer with an MSc in Computer Science &
-Engineering and about ten years of firmware work, mostly on devices where boot
-time, power draw and worst-case latency decide whether the product ships.
-
-Most of my code is C, C++ and Rust on FreeRTOS, Zephyr and Linux. I've built
-low-latency software for automotive and healthcare devices, where threads,
-interrupts and DMA share data and every task has to meet its deadline even in
-the worst case. I also work lower in the stack on U-Boot, secure boot with
-OP-TEE and kernel drivers. When a project needs hardware, I design the board
-myself in KiCad.
+I'm an embedded engineer working primarily with C, C++, Rust and Python across
+Linux, RTOS, hypervisors, heterogeneous systems and SoCs, developing low-latency
+complex systems for various platforms. 
 
 ## What I work on now
 
-At my day job I build Linux BSPs in Yocto for an NXP i.MX93 platform. I
-wrote a login manager in Rust on top of the kernel keyring and OP-TEE, fix
-bugs in the NXP IW611 Wi-Fi driver, and help design the always-on controller
-for the low-power domain and the hardware-in-the-loop test rig.
+At my day job, I work on Linux BSPs and automotive HiL infrastructure,
+designing and developing test rigs that integrate VHI, chip emulation and
+FMI-based simulation components for [Toyota's ARENE platform](https://woven.toyota/en/technology/arene) 🚗.
 
 Outside work I mostly design small boards and the firmware that runs on them:
 
@@ -56,10 +48,7 @@ touchpad driver. My desktop runs patched dwm, st and slstatus on Arch.
 - Video on RISC-V: a MIPI ISP driver on V4L2, RTP streaming, and OpenAMP
   IPC between cores, debugged with a scope and a logic analyzer next to the
   ASIC team.
-- Security and IoT: a TDMA radio protocol with jamming detection, a QEMU
-  device emulator with PCI and DMA, and a c10k UDP log server.
-- Wearables and medical: LoRa and BLE firmware for a smart wristband, and a
-  FreeRTOS portable medical monitor with DSP on an STM32F407.
+
 
 ## Skills
 
@@ -86,5 +75,4 @@ go hiking, and spend time with my family.
 
 ## Contact
 
-Find me here on GitHub as [@rmskkn](https://github.com/rmskkn). Issues and
-PRs on any of my repos are welcome.
+Find me on GitHub as [@rmskkn](https://github.com/rmskkn) or reach me at rm.skakun@gmail.com.
