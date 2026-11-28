@@ -36,7 +36,8 @@ results pass DRC. I send patches upstream when I hit bugs, for example to
 For fun I keep a Klipper config for my
 [Ender-3 V3 SE](https://github.com/rmskkn/ender3se_klipper_config), and I
 maintain my own [QMK](https://github.com/rmskkn/qmk_firmware) and
-[ZMK](https://github.com/rmskkn/zmk) keyboard firmware, including a Cirque
+[ZMK](https://github.com/rmskkn/zmk) keyboard firmware and
+[zmk-config](https://github.com/rmskkn/zmk-config), including a Cirque ⌨️
 touchpad driver. My desktop runs patched dwm, st and slstatus on Arch.
 
 ## Where I've worked before
